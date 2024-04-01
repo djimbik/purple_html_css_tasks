@@ -8,55 +8,43 @@
 <body>
 <div class="page-wrapper">
     <main>
-        <div class="main-wrapper">
+        <form action="#" method="get">
             <h1>Регистрация</h1>
-            <div class="sign-up">
-                Уже есть аккаунт? <a href="#" class="sign-up-link">Войти</a>
+            <p>
+                Уже есть аккаунт? <a href="#">Войти</a>
+            </p>
+            <input type="text"
+                   placeholder="Название компании"
+                   name="company_name"
+                   id="company_name"
+                   value="Моя компания"
+                   required>
+            <div>
+                <input type="text"
+                       placeholder="Имя"
+                       name="user_name"
+                       id="user_name"
+                       required>
+                <input type="text"
+                       placeholder="Фамилия"
+                       name="last_name"
+                       id="last_name"
+                       required>
             </div>
-            <form action="#" method="get">
-                <div class="input-wrapper">
-                    <label for="company_name">Название компании</label>
-                    <input type="text"
-                           placeholder="Название компании"
-                           name="company_name"
-                           id="company_name"
-                           value="Моя компания"
-                           required>
-                </div>
-                <div class="input-wrapper">
-                    <label for="user_name">Имя</label>
-                    <input type="text"
-                           placeholder="Имя"
-                           name="user_name"
-                           id="user_name"
-                           required>
-                </div>
-                <div class="input-wrapper">
-                    <label for="last_name">Фамилия</label>
-                    <input type="text"
-                           placeholder="Фамилия"
-                           name="last_name"
-                           id="last_name"
-                           required>
-                </div>
-                <div class="input-wrapper">
-                    <label for="email">E-mail</label>
-                    <input type="email"
-                           placeholder="E-mail"
-                           name="email"
-                           id="email"
-                           required>
-                </div>
-                <button type="submit">Зарегистрироваться</button>
-                <div class="input-wrapper form-terms">
-                    <input type="checkbox" name="terms" id="terms">
-                    <label for="terms">
-                        Я прочитал и принимаю
-                        <a href="#">Условия использования</a>
-                    </label>
-                </div>
-            </form>
-        </div>
+            <input type="email"
+                   placeholder="E-mail"
+                   name="email"
+                   id="email"
+                   required>
+            <button type="submit">Зарегистрироваться</button>
+            <div>
+                <input type="checkbox" name="terms" id="terms">
+                <label for="terms">
+                    Я прочитал и принимаю
+                    <a href="#">Условия использования</a>
+                </label>
+            </div>
+        </form>
     </main>
 </div>
 </body>
