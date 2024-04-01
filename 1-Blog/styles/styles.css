@@ -1,0 +1,48 @@
+.main-wrapper {
+    font-family: "Roboto", sans-serif;
+
+    background-image: linear-gradient(180deg, #374151 0%, #111827 100%);
+}
+
+.header__name {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation__item {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.search-form__input {
+    background: rgba(31, 41, 55, 0.6);
+}
+
+.search-form__input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.6;
+}
+
+.article__tag-container {
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.6;
+}
+
+.article__link {
+    text-decoration: none;
+    color: #fff;
+}
