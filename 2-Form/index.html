@@ -13,40 +13,42 @@
             <p class="form__text">
                 Уже есть аккаунт? <a class="form__link form__link--first" href="#">Войти</a>
             </p>
-            <input class="form__input"
-                   type="text"
-                   placeholder="Название компании"
-                   name="company_name"
-                   id="company_name"
-                   value="Моя компания"
-                   required>
-            <div class="form__inputs-wrapper">
+            <div class="form__main-wrapper">
                 <input class="form__input"
                        type="text"
-                       placeholder="Имя"
-                       name="user_name"
-                       id="user_name"
+                       placeholder="Название компании"
+                       name="company_name"
+                       id="company_name"
+                       value="Моя компания"
                        required>
+                <div class="form__inputs-wrapper">
+                    <input class="form__input form__input--name"
+                           type="text"
+                           placeholder="Имя"
+                           name="user_name"
+                           id="user_name"
+                           required>
+                    <input class="form__input form__input--second-name"
+                           type="text"
+                           placeholder="Фамилия"
+                           name="last_name"
+                           id="last_name"
+                           required>
+                </div>
                 <input class="form__input"
-                       type="text"
-                       placeholder="Фамилия"
-                       name="last_name"
-                       id="last_name"
+                       type="email"
+                       placeholder="E-mail"
+                       name="email"
+                       id="email"
                        required>
-            </div>
-            <input class="form__input"
-                   type="email"
-                   placeholder="E-mail"
-                   name="email"
-                   id="email"
-                   required>
-            <button class="form__button" type="submit">Зарегистрироваться</button>
-            <div class="form__terms-wrapper">
-                <input type="checkbox" name="terms" id="terms">
-                <label class="form__terms-text" for="terms">
-                    Я прочитал и принимаю
-                    <a class="form__link form__link--second" href="#">Условия использования</a>
-                </label>
+                <button class="form__button" type="submit">Зарегистрироваться</button>
+                <div class="form__terms-wrapper">
+                    <input type="checkbox" name="terms" id="terms">
+                    <label class="form__terms-text" for="terms">
+                        Я прочитал и принимаю
+                        <a class="form__link form__link--second" href="#">Условия использования</a>
+                    </label>
+                </div>
             </div>
         </form>
     </main>
