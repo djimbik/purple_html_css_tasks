@@ -7,41 +7,45 @@
 </head>
 <body>
 <div class="page-wrapper">
-    <main>
-        <form action="#" method="get">
-            <h1>Регистрация</h1>
-            <p>
-                Уже есть аккаунт? <a href="#">Войти</a>
+    <main class="main-wrapper">
+        <form class="form" action="#" method="get">
+            <h1 class="form__header">Регистрация</h1>
+            <p class="form__text">
+                Уже есть аккаунт? <a class="form__link form__link--first" href="#">Войти</a>
             </p>
-            <input type="text"
+            <input class="form__input"
+                   type="text"
                    placeholder="Название компании"
                    name="company_name"
                    id="company_name"
                    value="Моя компания"
                    required>
-            <div>
-                <input type="text"
+            <div class="form__inputs-wrapper">
+                <input class="form__input"
+                       type="text"
                        placeholder="Имя"
                        name="user_name"
                        id="user_name"
                        required>
-                <input type="text"
+                <input class="form__input"
+                       type="text"
                        placeholder="Фамилия"
                        name="last_name"
                        id="last_name"
                        required>
             </div>
-            <input type="email"
+            <input class="form__input"
+                   type="email"
                    placeholder="E-mail"
                    name="email"
                    id="email"
                    required>
-            <button type="submit">Зарегистрироваться</button>
-            <div>
+            <button class="form__button" type="submit">Зарегистрироваться</button>
+            <div class="form__terms-wrapper">
                 <input type="checkbox" name="terms" id="terms">
-                <label for="terms">
+                <label class="form__terms-text" for="terms">
                     Я прочитал и принимаю
-                    <a href="#">Условия использования</a>
+                    <a class="form__link form__link--second" href="#">Условия использования</a>
                 </label>
             </div>
         </form>
