@@ -4,10 +4,12 @@ body {
     margin: 0 auto;
     min-height: 100vh;
 
-    background-color: #f39494; /* Базовый цвет фона */
-    background-image: linear-gradient(225deg, #ffa5a5 33.09%, #fff 82.34%),
-    linear-gradient(225deg, #fdc5c5 25.45%, #f298de 100%);
+    background: linear-gradient(225deg, #fdc5c5 25.45%, rgba(242, 152, 222, 0) 100%),
+    linear-gradient(225deg, #ffa5a5 33.09%, rgba(255, 255, 255, 0) 82.34%), #f39494;
+}
 
+* {
+    box-sizing: border-box;
 }
 
 .page-wrapper {
