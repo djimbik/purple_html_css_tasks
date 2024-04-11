@@ -6,6 +6,9 @@
     <meta name="description" content="Статья про теорию цвета от разработчика">
     <title>Blog</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="main-wrapper">
@@ -29,7 +32,7 @@
                     18.234 18.654 17.346 18.654H15.582V22.38Z"
                           fill="white"/>
                 </svg>
-                Мой блог
+                <span>Мой блог</span>
             </a>
         </p>
         <nav class="navigation">
@@ -47,7 +50,7 @@
         </nav>
         <form action="#" class="search-form">
             <input class="search-form__input" placeholder="Поиск" type="search">
-            <button class="search-form__button" type="submit">Search</button>
+            <img class="search-form__button" src="./images/search.svg" alt="кнопка поиска">
         </form>
     </header>
     <main class="main">
@@ -57,11 +60,14 @@
                 <time datetime="2024-05-12 19:00" class="article__date">12 мая 2024</time>
             </p>
             <h1 class="article__header">Теория цвета - Как цвет влияет на поведение потребителей</h1>
-            <p class="article__author-container">
-                <img class="article__author-img" src="./images/developer.png" alt="Иконка с фото автора статьи">
-                <span class="article__author-name">Наталья Васильева</span>
-                <span class="article__author-position">Разработчик</span>
-            </p>
+            <div class="article__author-container">
+                <img class="article__author-img" src="./images/developer.png" alt="Иконка с фото автора статьи"
+                width="50" height="50">
+                <div class="article__author-wrapper">
+                    <span class="article__author-name">Наталья Васильева</span>
+                    <span class="article__author-position">Разработчик</span>
+                </div>
+            </div>
             <img class="article__img" src="images/screen.jpg" alt="Фото экрана компьютера на фоне градиента">
             <div class="article__text-container">
                 <p class="article__text article__text--first">
