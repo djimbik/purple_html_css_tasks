@@ -4,7 +4,7 @@
 }
 
 .header__wrapper {
-    max-width: var(--layout-width-1500);
+    max-width: var(--layout-width-1392);
     margin: 0 auto;
 
     display: flex;
