@@ -25,6 +25,7 @@ body {
 
     margin: 0;
     overflow-x: hidden;
+    min-width: 270px;
 
     font-family: 'Inter', sans-serif;
     font-weight: 500;

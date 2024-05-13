@@ -163,6 +163,20 @@
     }
 }
 
+@media (max-width: 350px) {
+    .card__header  {
+        font-size: 24px;
+    }
+
+    .card__intro {
+        font-size: 15px;
+    }
+
+    .card {
+        min-width: 200px;
+    }
+}
+
 /* button */
 
 .button {
@@ -186,11 +200,18 @@
     padding: 12px 36px;
 }
 
+@media (max-width: 360px) {
+    .button {
+        max-width: 230px;
+        padding: 12px 10px;
+    }
+}
+
 /* rotated-block */
 
 .rotated-block {
     position: absolute;
-    top: 800px;
+    top: 750px;
     width: 120%;
     height: 312px;
     background-color: var(--color-white);
@@ -201,7 +222,7 @@
 
 @media (max-width: 1393px) {
     .rotated-block {
-        top: 600px;
+        top: 700px;
     }
 }
 
@@ -310,5 +331,15 @@
 
     .advantage__h2 {
         font-size: 32px;
+    }
+}
+
+@media (max-width: 350px) {
+    .advantage__h2 {
+        font-size: 24px;
+    }
+
+    .advantage__text {
+        font-size: 16px;
     }
 }
