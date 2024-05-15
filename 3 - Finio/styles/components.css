@@ -146,7 +146,7 @@
 
 @media (max-width: 1153px) {
     .card_first {
-        padding: 48px 24px;
+        padding: 93px 24px 48px;
     }
 
     .card {
@@ -163,8 +163,14 @@
     }
 }
 
+@media (max-width: 650px) {
+    .card__button {
+        padding: 12px 10px;
+    }
+}
+
 @media (max-width: 350px) {
-    .card__header  {
+    .card__header {
         font-size: 24px;
     }
 
@@ -211,7 +217,7 @@
 
 .rotated-block {
     position: absolute;
-    top: 750px;
+    top: 830px;
     width: 120%;
     height: 312px;
     background-color: var(--color-white);
@@ -222,11 +228,17 @@
 
 @media (max-width: 1393px) {
     .rotated-block {
-        top: 700px;
+        top: 800px;
     }
 }
 
 @media (max-width: 1285px) {
+    .rotated-block {
+        top: 750px;
+    }
+}
+
+@media (max-width: 1153px) {
     .rotated-block {
         top: 650px;
     }
@@ -241,6 +253,12 @@
 @media (max-width: 411px) {
     .rotated-block {
         top: 730px;
+    }
+}
+
+@media (max-width: 375px) {
+    .rotated-block {
+        top: 600px;
     }
 }
 

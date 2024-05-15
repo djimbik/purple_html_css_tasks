@@ -101,6 +101,7 @@
     }
 
     .footer__bottom img {
+        max-width: 200px;
         order: -1;
     }
 }
